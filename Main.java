@@ -7,5 +7,8 @@ class Main {
         deck.shuffleDeck();
         System.out.println("Shuffled Deck:");
         deck.printDeck();
+
+        System.out.println("\nPrinting a specific card (Index 0):");
+		deck.printCard(0);
     }
 }
