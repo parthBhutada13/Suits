@@ -40,3 +40,20 @@ class Deck {
 			}
 		}
 	}
+
+	public void compareCard(String rank) {
+		for (Card card : deck) {
+			if (card.getRank().equalsIgnoreCase(rank)) {
+				System.out.println(card);
+			}
+		}
+	}
+
+	public boolean findCard(String rank, String suit) {
+		for (Card card : deck) {
+			if (card.getRank().equalsIgnoreCase(rank) && card.getSuit().equalsIgnoreCase(suit)) {
+				return true;
+			}
+		}
+		return false;
+	}
