@@ -9,6 +9,9 @@ class Main {
         deck.printDeck();
 
         System.out.println("\nPrinting a specific card (Index 0):");
-		deck.printCard(0);
+	deck.printCard(0);
+
+	System.out.println("\nCards with suit 'Hearts':");
+	deck.sameCard("Hearts");
     }
 }
