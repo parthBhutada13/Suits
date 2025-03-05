@@ -21,5 +21,8 @@ class Main {
 	String searchSuit = "Spades";
 	System.out.println("\nFinding card " + searchRank + " of " + searchSuit + ": " +
 		(deck.findCard(searchRank, searchSuit) ? "Card found!" : "Card not found."));
-    }
+	    
+	System.out.println("\nDealing 5 random cards:");
+		deck.dealCard();
+	}
 }
