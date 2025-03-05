@@ -13,5 +13,8 @@ class Main {
 
 	System.out.println("\nCards with suit 'Hearts':");
 	deck.sameCard("Hearts");
+	
+	System.out.println("\nCards with rank 'A':");
+	deck.compareCard("A");
     }
 }
