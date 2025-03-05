@@ -16,5 +16,10 @@ class Main {
 	
 	System.out.println("\nCards with rank 'A':");
 	deck.compareCard("A");
+	    
+	String searchRank = "K";
+	String searchSuit = "Spades";
+	System.out.println("\nFinding card " + searchRank + " of " + searchSuit + ": " +
+		(deck.findCard(searchRank, searchSuit) ? "Card found!" : "Card not found."));
     }
 }
